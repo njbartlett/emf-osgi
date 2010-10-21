@@ -1,0 +1,2 @@
+Private-Package: name.njbartlett.osgi.emf.samples.tests
+Bundle-Activator: name.njbartlett.osgi.emf.samples.tests.SamplesExampleActivator

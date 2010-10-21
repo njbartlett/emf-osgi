@@ -1,0 +1,37 @@
+common-version: 2.6.0
+ecore-version: 2.6.1
+
+# API
+Export-Package: org.eclipse.emf.common;version=${common-version},\
+	org.eclipse.emf.common.notify;version=${common-version},\
+	org.eclipse.emf.common.notify.impl;version=${common-version},\
+	org.eclipse.emf.common.util;version=${common-version},\
+	org.eclipse.emf.ecore;version=${ecore-version},\
+	org.eclipse.emf.ecore.impl;version=${ecore-version},\
+	org.eclipse.emf.ecore.plugin;version=${ecore-version},\
+	org.eclipse.emf.ecore.resource;version=${ecore-version},\
+	org.eclipse.emf.ecore.resource.impl;version=${ecore-version},\
+	org.eclipse.emf.ecore.xml.namespace;version=${ecore-version},\
+	org.eclipse.emf.ecore.xml.type;version=${ecore-version},\
+	org.eclipse.emf.ecore.xml.type.internal;version=${ecore-version},\
+	org.eclipse.emf.ecore.xml.type.util;version=${ecore-version},\
+	org.eclipse.emf.ecore.util;version=${ecore-version}
+
+# Customize imports
+Import-Package: org.eclipse.core.runtime;resolution:=optional,\
+	org.eclipse.core.resources;resolution:=optional,\
+	org.eclipse.core.runtime.content;resolution:=optional,\
+	*
+
+# Internals
+Private-Package:\
+	org.eclipse.emf.common,\
+	org.eclipse.emf.common.archive,\
+	org.eclipse.emf.ecore.resource.impl,\
+	org.eclipse.emf.ecore.xml.namespace,\
+	org.eclipse.emf.ecore.xml.namespace.impl,\
+	org.eclipse.emf.ecore.xml.namespace.util,\
+	org.eclipse.emf.ecore.xml.type,\
+	org.eclipse.emf.ecore.xml.type.impl,\
+	org.eclipse.emf.ecore.xml.type.internal,\
+	org.eclipse.emf.ecore.xml.type.util

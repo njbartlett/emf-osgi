@@ -1,0 +1,5 @@
+-runfw: org.apache.felix.framework
+-runbundles: org.apache.felix.shell,\
+	org.apache.felix.shell.tui,\
+	name.njbartlett.osgi.emf.minimal;version=latest,\
+	name.njbartlett.osgi.emf.xmi;version=latest

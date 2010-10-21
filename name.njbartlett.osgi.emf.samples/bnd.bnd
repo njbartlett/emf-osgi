@@ -1,0 +1,4 @@
+-buildpath: name.njbartlett.osgi.emf.minimal;version=snapshot,\
+	name.njbartlett.osgi.emf.xmi;version=snapshot,\
+	osgi.core
+-sub: *.bnd

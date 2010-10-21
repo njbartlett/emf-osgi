@@ -1,0 +1,3 @@
+Export-Package: name.njbartlett.osgi.emf.samples,\
+	name.njbartlett.osgi.emf.samples.impl,\
+	name.njbartlett.osgi.emf.samples.util
