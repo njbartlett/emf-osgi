@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="project" default="build"> 
+
 	<target name="build">
 		<ant dir="name.njbartlett.osgi.emf.samples" target="build"/>
 	</target>
+
 	<target name="clean">
 		<ant dir="name.njbartlett.osgi.emf.samples" target="deepclean"/>
+      <delete dir="${basedir}/cnf/target"/>
 	</target>
 
    <property file="name.njbartlett.osgi.emf/bnd.bnd"/>

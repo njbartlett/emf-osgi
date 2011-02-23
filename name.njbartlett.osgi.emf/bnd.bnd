@@ -1,18 +1,18 @@
+## For EMF Feature 2.6.1
+#version: 2.6.1
+#ecore-version: 2.6.1.v20100914-1218
+#common-version: 2.6.0.v20100914-1218
+#xmi-version: 2.5.0.v20100521-1846
+#osgi-version: [1.5,2)
+#libpath: libs/2.6.1
+
+# For EMF Feature 2.7.0 M5
 version: 2.7.0.M5
-
-# For EMF Feature 2.6.1
-ecore-version: 2.6.1.v20100914-1218
-common-version: 2.6.0.v20100914-1218
-xmi-version: 2.5.0.v20100521-1846
-osgi-version: [1.5,2)
-libpath: libs/2.6.1
-
-## For EMF Feature 2.7.0 M5
-#ecore-version: 2.7.0.v20110128-1409
-#common-version: 2.7.0.v20110128-1409
-#xmi-version: 2.6.0.v20110126-1727
-#osgi-version: [1.6,2)
-#libpath: libs/2.7.0M5
+ecore-version: 2.7.0.v20110128-1409
+common-version: 2.7.0.v20110128-1409
+xmi-version: 2.6.0.v20110126-1727
+osgi-version: [1.6,2)
+libpath: libs/2.7.0M5
 
 -sub: *.bnd
 -buildpath:\
