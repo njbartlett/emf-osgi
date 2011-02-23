@@ -1,7 +1,7 @@
 Rebundled EMF for Pure OSGi Environments
 ========================================
 
-The Eclipse Modelling Framework delivers a number of bundles that run under Eclipse. However, the OSGi metadata in these bundle is of poor quality and they result in a hard dependency on large part of the Eclipse runtime. In addition can *only* be run under Equinox. See the discussion on (this bug)[http://bugs.eclipse.org/bugs/show_bug.cgi?id=328227] for additional background information
+The Eclipse Modelling Framework delivers a number of bundles that run under Eclipse. However, the OSGi metadata in these bundle is of poor quality and they result in a hard dependency on large part of the Eclipse runtime. In addition can *only* be run under Equinox. See the discussion on [this bug](http://bugs.eclipse.org/bugs/show_bug.cgi?id=328227) for additional background information
 
 In order to run EMF on other OSGi frameworks, it is necessary to rebundle EMF to clean up the dependencies.
 
