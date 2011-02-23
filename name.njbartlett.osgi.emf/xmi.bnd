@@ -1,4 +1,3 @@
-version: 1.5.0
-Export-Package: org.eclipse.emf.ecore.xmi;version=${version},\
-	org.eclipse.emf.ecore.xmi.impl;version=${version},\
-	org.eclipse.emf.ecore.xmi.util;version=${version}
+Export-Package: org.eclipse.emf.ecore.xmi;version=${xmi-version},\
+	org.eclipse.emf.ecore.xmi.impl;version=${xmi-version},\
+	org.eclipse.emf.ecore.xmi.util;version=${xmi-version}
