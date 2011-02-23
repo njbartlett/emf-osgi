@@ -6,4 +6,13 @@
 	<target name="clean">
 		<ant dir="name.njbartlett.osgi.emf.samples" target="deepclean"/>
 	</target>
+
+   <property file="name.njbartlett.osgi.emf/bnd.bnd"/>
+
+   <target name="zip" depends="build">
+           <mkdir dir="${basedir}/cnf/target"/>
+           <zip destfile="${basedir}/cnf/target/emf-osgi-${version}.zip">
+                   <fileset dir="${basedir}/name.njbartlett.osgi.emf/generated" includes="*.jar"/>
+           </zip>
+   </target>
 </project>

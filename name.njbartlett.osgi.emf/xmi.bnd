@@ -1,3 +1,4 @@
+Bundle-Version: ${xmi-version}
 Export-Package: org.eclipse.emf.ecore.xmi;version=${xmi-version},\
 	org.eclipse.emf.ecore.xmi.impl;version=${xmi-version},\
 	org.eclipse.emf.ecore.xmi.util;version=${xmi-version}

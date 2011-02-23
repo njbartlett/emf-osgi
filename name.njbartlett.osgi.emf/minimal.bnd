@@ -1,3 +1,5 @@
+Bundle-Version: ${ecore-version}
+
 # API
 Export-Package: org.eclipse.emf.common;version=${common-version},\
 	org.eclipse.emf.common.notify;version=${common-version},\
